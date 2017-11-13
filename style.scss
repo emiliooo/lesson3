@@ -392,7 +392,7 @@ body{
  }
 
 /* Landscape phone to portrait tablet */
-@media (max-width: 868px) { 
+@media screen and (max-width: 868px) { 
     #section_one{
         width: 100%;
         .menu{
@@ -565,7 +565,7 @@ body{
  }
 
 /* Landscape phones and down */
-@media (max-width: 576px) { 
+@media screen and (max-width: 576px) { 
     #section_one{
         width: 100%;
         .menu{
