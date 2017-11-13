@@ -1,4 +1,5 @@
-@import url("/img/sprites.css");
+// @import url("/3/zadanie3/img/sprites.css");
+@import url("../img/sprites.css");
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab:400,700');
 
 body{
@@ -392,7 +393,174 @@ body{
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) { 
-    
+    #section_one{
+        width: 100%;
+        .menu{
+            display: none;
+        }
+    }
+    #section_two{
+        .background{
+            width: 100%;
+            .background--title{
+                p{
+                    font-size: 21px;
+                }
+                p:nth-child(2){
+                    font-size: 17px;
+                }
+            }
+            .background--button{
+                button{
+                    width: 100px;
+                }
+            }
+            
+        }
+    }
+    #section_three{
+        .section_title{
+            font-size: 18px;
+        }
+        .section--blok_one,
+        .section--blok_two,
+        .section--blok_three
+        {
+            display: block;
+            margin: 0 auto;
+            height: 220px;
+            p{
+                font-size: 13px;
+            }
+        }
+    }
+    #section_four{
+        .section_four_left {
+            display: none;
+        }
+        .section_four_right {
+            width: 100%;
+            height: 650px;
+            button{
+                width: 100px;
+            }
+        }
+    }
+    .section_five{
+        .section_five--title{
+            p{
+                font-size: 20px;
+            }
+        }
+        .section_five_left{
+               
+            transform: translateY(-4%);
+            width: 100%;
+            .subtitle{
+                p{
+                    font-size: 20px;
+                }
+            }
+            .section_five--icons{
+                ul{
+                    li{
+                        
+                        p{
+                            font-size: 13px;
+                        }
+                    }
+                }
+                p{
+                    font-size:13px
+                }
+            }
+        }
+        .section_five_right{
+            display: none;
+        }
+
+    }
+    .section_six{
+        height: 926px;
+        .section_six_inside{
+            transform: translateY(-8%);
+            p{
+                font-size: 13px;
+            }
+            .section_six_blok_one,
+            .section_six_blok_two,
+            .section_six_blok_three {
+             display: block;
+             margin: 0 auto;
+             height: 100%;
+            }
+        }
+    }
+ 
+    .section_seven{
+        .section_seven--title{
+            p:first-child{
+                font-size: 13px;
+            }
+        }
+        .section_seven_title_one,
+        .section_seven_title_two{
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+        }
+        .section_seven_ring,
+        .section_seven_ring--second
+        {
+            display: block;
+            margin: 0 auto;
+
+        }
+
+    }
+    .section_eight{
+        height: 100px;
+        p{
+            font-size: 15px;
+        }
+        .section_eight--button{
+            width: 105px;
+        }
+
+    }
+    .section_nine{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .section_ten{
+        .section_ten_inside{
+            .section_ten_contact_us{
+                ul{
+                    li{
+                       
+                        font-size: 10px;
+                    }
+                }
+            }
+            .section_ten_latest_posts{
+                ul{
+                    li{
+                       
+                        font-size: 10px;
+                    }
+                }
+            }
+            .section_ten_latest_tweets{
+                ul{
+                    li{
+                       
+                        font-size: 10px;
+                    }
+                }
+            }
+
+        }
+    }
    
  }
 
