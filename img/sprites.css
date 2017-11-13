@@ -1,0 +1,152 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-around_icon {
+  background-image: url(spritesheet.png);
+  background-position: -313px -125px;
+  width: 33px;
+  height: 32px;
+  float: left;
+  margin-right: 10px;
+}
+.icon-icon1 {
+  background-image: url(spritesheet.png);
+  background-position: 0px -255px;
+  width: 54px;
+  height: 48px;
+  margin: 0 auto;
+}
+.icon-icon2 {
+  background-image: url(spritesheet.png);
+  background-position: 0px -303px;
+  width: 40px;
+  height: 52px;
+  margin: 0 auto;
+}
+.icon-icon3 {
+  background-image: url(spritesheet.png);
+  background-position: -54px -255px;
+  width: 55px;
+  height: 44px;
+  margin: 0 auto;
+}
+.icon-icon4 {
+  background-image: url(spritesheet.png);
+  background-position: -91px -91px;
+  width: 73px;
+  height: 74px;
+  float: left;
+  margin-right: 20px;
+}
+.icon-icon5 {
+  background-image: url(spritesheet.png);
+  background-position: -73px -182px;
+  width: 73px;
+  height: 73px;
+  float: left;
+  margin-right: 20px;
+}
+.icon-icon6 {
+  background-image: url(spritesheet.png);
+  background-position: 0px -182px;
+  width: 73px;
+  height: 73px;
+  float: left;
+  margin-right: 20px;
+}
+.icon-icon_down1 {
+  background-image: url(spritesheet.png);
+  background-position: 0px -91px;
+  width: 91px;
+  height: 91px;
+  margin: 0 auto;
+}
+.icon-icon_down2 {
+  background-image: url(spritesheet.png);
+  background-position: -91px 0px;
+  width: 91px;
+  height: 91px;
+  margin: 0 auto;
+}
+.icon-icon_down3 {
+  background-image: url(spritesheet.png);
+  background-position: 0px 0px;
+  width: 91px;
+  height: 91px;
+  margin:0 auto;
+}
+.icon-logo1 {
+  background-image: url(spritesheet.png);
+  background-position: -146px -182px;
+  width: 161px;
+  height: 30px;
+ 
+}
+.icon-logo2 {
+  background-image: url(spritesheet.png);
+  background-position: -182px -41px;
+  width: 186px;
+  height: 42px;
+
+}
+.icon-logo3 {
+  background-image: url(spritesheet.png);
+  background-position: -182px -125px;
+  width: 131px;
+  height: 41px;
+
+}
+.icon-logo4 {
+  background-image: url(spritesheet.png);
+  background-position: -182px -83px;
+  width: 167px;
+  height: 42px;
+  
+}
+.icon-logo_loca {
+  background-image: url(spritesheet.png);
+  background-position: -349px -83px;
+  width: 23px;
+  height: 31px;
+  float: left;
+  margin-right: 10px;
+}
+.icon-medias {
+  background-image: url(spritesheet.png);
+  background-position: -182px 0px;
+  width: 191px;
+  height: 41px;
+  float: left;
+  margin-right: 10px;
+}
+.icon-phone_icon {
+  background-image: url(spritesheet.png);
+  background-position: -346px -125px;
+  width: 20px;
+  height: 31px;
+  float: left;
+  margin-right: 10px;
+}
+.icon-post {
+  background-image: url(spritesheet.png);
+  background-position: -182px -166px;
+  width: 25px;
+  height: 16px;
+  float: left;
+  margin-right: 10px;
+}
