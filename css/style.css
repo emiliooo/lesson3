@@ -389,10 +389,7 @@ body {
   margin: 10px;
 }
 
-/* Large desktop */
-/* Portrait tablet to landscape and desktop */
-/* Landscape phone to portrait tablet */
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 477px) and (max-width: 768px) {
   #section_one {
     width: 100%;
   }
@@ -521,7 +518,7 @@ body {
   }
 }
 /* Landscape phones and down */
-@media screen and (min-width: 476px) {
+@media screen and (min-width: 240px) and (max-width: 476px) {
   #section_one {
     width: 100%;
   }
