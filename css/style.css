@@ -389,7 +389,7 @@ body {
   margin: 10px;
 }
 
-@media screen and (min-width: 176px) and (max-width: 476px) {
+@media screen and (min-width: 176px) and (max-width: 876px) {
   #section_one {
     width: 100%;
   }
@@ -401,17 +401,17 @@ body {
     width: 100%;
   }
   #section_two .background .background--title p {
-    font-size: 21px;
+    font-size: 50%;
   }
   #section_two .background .background--title p:nth-child(2) {
-    font-size: 17px;
+    font-size: 50%;
   }
   #section_two .background .background--button button {
     width: 100px;
   }
 
   #section_three .section_title {
-    font-size: 18px;
+    font-size: 70%;
   }
   #section_three .section--blok_one,
   #section_three .section--blok_two,
@@ -423,7 +423,7 @@ body {
   #section_three .section--blok_one p,
   #section_three .section--blok_two p,
   #section_three .section--blok_three p {
-    font-size: 13px;
+    font-size: 70%;
   }
 
   #section_four .section_four_left {
@@ -438,7 +438,7 @@ body {
   }
 
   .section_five .section_five--title p {
-    font-size: 20px;
+    font-size: 70%;
   }
   .section_five .section_five_left {
     -webkit-transform: translateY(-4%);
@@ -446,13 +446,13 @@ body {
     width: 100%;
   }
   .section_five .section_five_left .subtitle p {
-    font-size: 20px;
+    font-size: 70%;
   }
   .section_five .section_five_left .section_five--icons ul li p {
-    font-size: 13px;
+    font-size: 70%;
   }
   .section_five .section_five_left .section_five--icons p {
-    font-size: 13px;
+    font-size: 70%;
   }
   .section_five .section_five_right {
     display: none;
@@ -477,7 +477,7 @@ body {
   }
 
   .section_seven .section_seven--title p:first-child {
-    font-size: 13px;
+    font-size: 70%;
   }
   .section_seven .section_seven_title_one,
   .section_seven .section_seven_title_two {
@@ -508,12 +508,12 @@ body {
   }
 
   .section_ten .section_ten_inside .section_ten_contact_us ul li {
-    font-size: 10px;
+    font-size: 70%;
   }
   .section_ten .section_ten_inside .section_ten_latest_posts ul li {
-    font-size: 10px;
+    font-size: 70%;
   }
   .section_ten .section_ten_inside .section_ten_latest_tweets ul li {
-    font-size: 10px;
+    font-size: 70%;
   }
 }
